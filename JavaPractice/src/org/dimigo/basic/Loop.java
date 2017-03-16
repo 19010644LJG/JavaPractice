@@ -60,7 +60,9 @@ public class Loop {
 		break;
 	case 9:
 		System.out.println("이제 공부하세요!");
+		i = 1;
 		break;
+		
 		
 	default :
 	System.out.println("없는 메뉴 입니다!!");
