@@ -79,8 +79,7 @@ public class Car {
 		public void getprice(int newprice){
 			price = newprice;
 		}
-		
-		
+	
 	}
 
 
