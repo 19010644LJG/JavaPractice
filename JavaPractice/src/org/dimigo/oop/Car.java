@@ -18,11 +18,11 @@ package org.dimigo.oop;
 public class Car {
 	
 
-	public String company = "현대자동차";
-	public String model = "제네시스";
-	public String color = "검정색";
-	public int maxSpeed = 225;
-	public int price = 50000000;
+	private String company = "현대자동차";
+	private String model = "제네시스";
+	private String color = "검정색";
+	private int maxSpeed = 225;
+	private int price = 50000000;
 
 	public String getcompany() {
 		return company;
@@ -81,13 +81,3 @@ public class Car {
 		}
 	
 	}
-
-
-
-
-
-
-
-
-
-

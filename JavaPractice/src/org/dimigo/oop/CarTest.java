@@ -44,11 +44,11 @@ public class CarTest {
 		
 		Car car3 = new Car();
 		
-		car3.getcompany("삼성자동차");
-		car3.getmodel("SM7");
-		car3.getcolor("회색");
-		car3.getmaxSpeed(200);
-		car3.getprice(38000000);
+		car3.setcompany("삼성자동차");
+		car3.setmodel("SM7");
+		car3.setcolor("회색");
+		car3.setmaxSpeed(200);
+		car3.setprice(38000000);
 		
 		System.out.println("제조사명 : " + car3.getcompany());
 		System.out.println("모델명 : " + car3.getmodel());
